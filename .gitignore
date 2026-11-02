@@ -1,0 +1,22 @@
+# 本地凭据与运行产物（严禁提交）
+config.json
+config.local.json
+*.token
+
+# 浏览器登录态（含学信网 cookie）
+.browser_profile/
+浏览器配置/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# 日志与临时文件
+*.log
+*.pdf
+!docs/**/*.pdf
+tmp/
+out/
